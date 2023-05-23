@@ -2,37 +2,74 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  /* color: white; */
+  background-image: url(./component/images/red-blood-cells-background_88188-190.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+
+.block{
+margin-top: 100px;
+background-color: white; 
+width: fit-content;
+margin-left: 500px;
+margin-top: 75px;
+margin-bottom: auto;
+padding-bottom: 20px;
+padding-top: 20px;
+ /* background-image: linear-gradient(to right top, #f62a2a, #ee4545b3, #9e4453, #cb2323, #f63b3b);  */
+background: transparent;
+border: 1px solid red;
+box-shadow: 8px 8px 50px #ac1606;
+}
+ .text{
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+ }
+ 
+/* .dob{
+
+  
+  justify-content: left;
+  align-items: left;
+
+
+
+}
+}
+
+
+ */
+ .align{
+  margin-left: 530px;
+ }
+ .grid{
+  text-align: center;
+  justify-content: center;
+ }
+ .font{
+font-size: medium;
+font-weight: bolder;
+color: red;
+
+ }
+/* .butto{
+
+ font-size: larger;
+ font-weight: bold;
+  background-color:green;
+  text-shadow: 8px 8px 50px #1906ac;
   color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */
