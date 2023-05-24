@@ -1,0 +1,22 @@
+#intro-slide {
+    background: linear-gradient(rgba(252, 238, 239, 0.9), rgba(252, 238, 239, 0.9)),url(/src/component/images/pngtree-red-hand-care-love-warm-blood-donation-poster-background-material-image_180048.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    color: #d12531;
+    padding: 8rem 0 22rem 0;
+}
+
+.slide-heading {
+    padding-bottom: 1rem;
+}
+
+.slide-description {
+    font-weight: 200;
+    font-size: 1.1rem;
+    letter-spacing: 0.75px;
+    color: #d12531;
+    margin-bottom: 2.5rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
